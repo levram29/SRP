@@ -1,0 +1,110 @@
+/*---------------------------------------------
+-----------------------------------------------
+		 SASS LEREN - NIELS BRONSVOORT
+-----------------------------------------------
+---------------------------------------------*/
+/*---------------------------------------------
+				  VARIABELEN
+---------------------------------------------*/
+/* colors */
+/* lineheight */
+/* font */
+/* layout */
+/* shadows */
+/*---------------------------------------------
+				    MIXINS
+---------------------------------------------*/
+/* border-radius */
+/* box-shadow */
+/* text-shadow */
+/*---------------------------------------------
+		 LAYOUT (NESTING & EXTENDS)
+---------------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: url('../images/footer_lodyas.png?1413229426');
+  font-family: Arial, sans-serif;
+  line-height: 25px;
+}
+
+h1, h2, h3 {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  -webkit-text-shadow: 2px 2px 0px #7f8c8d;
+  -moz-text-shadow: 2px 2px 0px #7f8c8d;
+  text-shadow: 2px 2px 0px #7f8c8d;
+}
+
+h2 {
+  font-size: 20px;
+  color: #fee434;
+  -webkit-text-shadow: 1px 1px 0px #d35400;
+  -moz-text-shadow: 1px 1px 0px #d35400;
+  text-shadow: 1px 1px 0px #d35400;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 14px;
+  color: white;
+  text-shadow: none;
+  font-weight: normal;
+}
+
+a {
+  color: #fee434;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+}
+#container > p {
+  color: #fff;
+}
+#container > img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+#container ul.skills-container {
+  padding: 0;
+  list-style-type: none;
+  margin: 40px 0;
+  padding-bottom: 10px;
+  -moz-border-radius: 20px 20px;
+  -webkit-border-radius: 20px 20px;
+  border-radius: 20px 20px;
+  -webkit-box-shadow: 4px 4px 0px 2px #bdc3c7;
+  -moz-box-shadow: 4px 4px 0px 2px #bdc3c7;
+  box-shadow: 4px 4px 0px 2px #bdc3c7;
+  background-color: #34495e;
+}
+#container ul.skills-container li {
+  padding: 25px;
+}
+#container ul.skills-container li:first-child {
+  border: none;
+}
+#container ul.skills-container li img {
+  width: 100%;
+  display: block;
+  margin-bottom: -10px;
+  border-top: 1px solid #bdc3c7;
+}
+#container ul.skills-container li p {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 50px;
+}
